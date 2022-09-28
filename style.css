@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+}
+
+#article {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+}
+
+#image {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 300px;
+    border: 1px solid gray;
+    background-color: gray;
+    color: white;
+}
+
+#title {
+    height: 150px;
+    width: 300px;
+    border: 1px solid lightgray
+}
+
+h3 {
+    text-indent: 15px;
+}
+
+p,a {
+    text-indent: 15px;
+}
+
+.items {
+    height: 50px;
+    width: 300px;
+    border: 1px solid lightgray;
+    display: flex;
+    align-items: center
+}
+
+#link {
+    height: 80px;
+    width: 300px;
+    border: 1px solid lightgray;
+    display: flex;
+    align-items: center
+}
